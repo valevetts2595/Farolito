@@ -1,0 +1,80 @@
+/******
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49 
+Verde: #77d248 
+Amarillo: #ffc200
+******/
+/*Letra Universal*/
+
+/*Formulario parte izquierda*/
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+.azul{
+	color:  #28c5e6;
+	
+}
+	
+/*Formulario-diseño--*/
+body{
+    margin: auto;
+    background-color: #E2ECEE;
+    margin-top: 5%;
+}
+   
+.gris{
+	background-color: #e3e3e3; 
+}
+
+.contacto{
+  position: relative;
+ margin-left: 30%;
+ border: 1px solid #989898;
+    border-radius: 6px;
+    padding: 5%;
+    margin-top: 5%;
+    background-color:#ffffff;
+    width: 40%;
+    height: 50%;
+}
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 2%;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    resize: none;
+    box-shadow:0 0 0 1px #989898;
+    margin: 1px 0;
+}
+
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 1px #989898;
+}
+.contacto input[type='submit']{
+    border: 1px solid #989898;
+    box-shadow:0 0 0 1px #989898;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    margin-left: 55%;
+}
+.preguntas{
+	margin-top: 5%;
+}
+.color{
+	color:#989898; 
+}
+a{
+	text-decoration: none;
+}

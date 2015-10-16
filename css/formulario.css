@@ -1,0 +1,78 @@
+/******
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49 
+Verde: #77d248 
+Amarillo: #ffc200
+******/
+/*Letra Universal*/
+
+/*Formulario parte izquierda*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	
+}
+.logo{
+	position: relative;
+	margin-left: 35%;
+	margin-top: 30%;
+	
+}
+.bienvenida{
+	color:#28c5e6; 
+	font-size: 30px;
+	margin-top: 5%;
+	margin-left: 35%;
+}
+.empieza{
+	color:  #989898;
+	font-size: 20px;
+	margin-top: 5%;
+	margin-left: 30%;
+}
+
+/*Formulario-diseño--*/
+
+.contacto{
+   position: relative;
+   margin-left: 35%;
+   margin-top: 25%;
+
+}
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 2%;
+}
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    resize: none;
+    box-shadow:0 0 0 1px #989898;
+    margin: 1px 0;
+}
+}
+
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 1px #989898;
+}
+.contacto input[type='submit']{
+    border: 1px solid #989898;
+    box-shadow:0 0 0 1px #989898;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.detalle{
+	margin-left: 55%;
+	color: #e3e3e3;
+}

@@ -1,0 +1,24 @@
+header @font-face{
+	font-family: MuseoSans;
+	
+}
+/*Boton color Azul*/
+
+.botone-crea{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	padding: .5em 2em .55em;
+	color: white;
+    border: solid 1px #28c5e6;
+    background: #28c5e6; 
+    border-radius: 2em;
+    margin-left: 47%;
+    margin-top: 10%;
+
+
+}
+  
+.botone-crea:hover { 
+	text-decoration: none; 
+	background-color: #28c5e6;

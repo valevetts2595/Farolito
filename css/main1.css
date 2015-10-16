@@ -1,0 +1,65 @@
+/******
+Colores a utilizar
+Gris: #989898 
+Gris oscuro: #4d4545 
+Celeste: #28c5e6
+Anaranjado: #ff6a49 
+Verde: #77d248 
+Amarillo: #ffc200
+******/
+
+/*Letra Universal*/
+
+*{
+	font-family: 'Lato', sans-serif;
+	
+}
+
+ /*Fondo Prinmcipal*/
+ #fondo1{
+ 	background-image: url("../img/home.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	height:600px;
+ }
+
+
+ /*Menu elementos utilizados*/
+/*Menu elementos utilizados*/
+ #menu{
+	padding:5px;
+	margin-left: 15%;
+}
+#menu li{
+	display: inline;
+}
+#menu li a{
+	font-size:14px;
+	text-decoration: none;
+	float:left;
+	padding-left: 25px;
+	color:#000000;
+}
+#menu li a:hover {
+	color:#28c5e6;
+
+}
+.boton{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+    border: solid 1px  #989898 ;
+    background: #989898 ; 
+    border-radius: 2em;
+    margin-left: 2%;
+  padding-left: 1em;
+}
+
+    
+
+
+
+.Line2 {anchura: 
+         112px; 
+        altura:  47px; 
+        border-bottom:  1px sólidos

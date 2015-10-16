@@ -1,0 +1,202 @@
+/*MENU PRINCIPAL*/
+header{
+	height: 70px;
+	background-color: #EFF8FB;
+}
+
+
+#menu{
+	padding: 0px;
+	padding-top: 20px;
+	text-align: right;
+	margin-right: 6%;
+}
+
+#menu li{
+	display: inline;
+	border-left: 1px solid #989898;
+}
+
+.borde{
+	border-left: 1px solid transparent !important;
+	border-radius: 5px;
+}
+
+/*BOTÓN SALIR*/
+
+.boton{
+	border: 1px solid #989898 !important;
+	border-radius: 16px;
+	background: #989898;
+	padding: 4px 25px;
+	margin-left: 10px;
+}
+
+.blanco{
+	color: white !important;
+	font-size: 15px!important;
+}
+
+#menu li a{
+	text-decoration: none;
+	font-size: 13px;
+	color:yellow;
+	padding: 10px;
+	color: #989898;
+	font-size: 20px;
+}
+
+#menu li a:hover{
+	color: #99B2E6;
+}
+
+/*Sección farolito*/
+
+.info_personal{
+	height: 900px;
+	border-right: 1px dashed #989898;
+}
+
+.texto_blue{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #28c5e6;
+	float: right;
+	position: absolute;
+	bottom: 94%;
+	left: 100px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+
+}
+
+/*Boton del perfil*/
+
+.perfil{
+	border: 1px solid #989898;
+	border-radius: 14px;
+	padding: 5px 16px;
+	background-color: white;
+	font-size: 13px;
+	font-weight: bold;
+	color: #989898;
+	float: right;
+	position: absolute;
+	bottom: 91%;
+	left: 100px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	bottom-top:2%;
+}
+
+/*Informacion Personal del miembro*/
+
+.text_yellow{
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #ffc200;
+	padding: 30px 0;
+	margin-top: 2%;
+}
+
+.info{
+	list-style-type: none;
+}
+
+ul.info li{
+	padding: 5px 0;
+	font-size: 20px;
+	color: #989898;
+}
+
+/*Oportunidades*/
+
+.text_grey_medium{
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 1.5px;
+	color: #989898;
+	margin: 0 auto;
+	margin: 10%;
+}
+
+.box_oportunidades{
+	width: 100%;
+	margin:0 auto;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #D8D8D8;
+	border-width: 1px;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+.box_blue{
+	display: inline-block;
+	border-bottom: 1px solid #28c5e6;
+	text-align: left;
+	font-size: 18px;
+	color: #28c5e6;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+p.box_blue~p{
+	font-size: 18px;
+	line-height: 1.5;
+	color: #989898;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/*Botón Ver más*/
+
+.ver_oportunidad{
+	border: 2.5px solid #ff6a49;
+	border-radius: 9px;
+	padding: 5px 15px;
+	margin-left: 82%;
+	background-color: transparent;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff6a49;
+	margin-right: 20%;
+}
+
+/*Parte final de la pagina*/
+
+footer{
+	height: 50px; 
+	background-color: #989898;
+	padding-left: 30px;
+}
+
+footer>div img{
+	border: 2.5px solid white;
+	margin-top: -17px;		
+}
+
+.radius{
+    width: 100%; 
+    border-radius: 100%;
+}
+
+.icono_redes{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+ div.col-6+div.col-6 p{
+ 	text-align: right;
+ 	margin-top: 10px;
+ 	color: white;
+ }
+.texto{
+	font-size: 20px;
+}
+
+
+

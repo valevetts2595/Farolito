@@ -1,0 +1,101 @@
+*{
+	
+font-family: 'Lato', sans-serif;
+}
+
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+.pd_200{
+	padding-top: 100px;
+}
+
+.text_center{
+	text-align: center;
+}
+
+.text_left{
+	text-align: left;
+}
+
+.tx_orange{
+	color: #ff6a49;
+}
+
+.tx_grey{
+	color: #4d4545;
+}
+
+.tx_white{
+	color: white;
+}
+
+.mg_toop{
+	margin-top: 10%;
+}
+
+.mg_left{
+	margin-left: 30px;
+}
+
+.mg_5{
+	margin-top:5px;
+}
+
+.mg_20{
+	margin-top: 20px;
+}
+
+.mg_50{
+	margin-top: 50px;
+}
+
+.mg_60{
+	margin-top: 60px;
+}
+
+.mg_70{
+	margin-top: 70px;
+}
+
+.mg_top{
+	margin-top: 100px;
+}
+
+.mg_120{
+	margin-top: 120px;
+}
+
+.mg_170{
+	margin-top: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
